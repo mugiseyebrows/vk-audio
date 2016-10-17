@@ -28,7 +28,7 @@ function try_to_save($src,$filename) {
     */
     
     // works with cyrilic, doesn't work with japanese
-    //file_put_contents(iconv("UTF-8", "ISO-8859-1", $filename), $data);
+    //file_put_contents(iconv("UTF-8", "cp1251", $filename), $data);
   }
   return true;
 }
